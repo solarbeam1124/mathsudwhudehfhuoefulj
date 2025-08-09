@@ -18,7 +18,7 @@ from quart import Quart, request, jsonify
 app = Quart(__name__)
 
 Config = {
-    "Bot Name": "prem Gamble Bot",
+    "Bot Name": "Gamble Bot",
     "Bot Icon": "https://cdn.discordapp.com/attachments/1402781752736350238/1402949420215046215/image.png?ex=68966eb7&is=68951d37&hm=26a0926498d01ce81db6fc21cd1ad6b332437cc1248934667219be8fc9",
     "Towers" : {
         "WinChance" : 62,
