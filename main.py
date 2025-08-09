@@ -2790,7 +2790,7 @@ def start_bot():
     bot.run(Config['DiscordBotToken'])
 
 def start_web_server():
-    app.run(debug=False, port=1024, host="0.0.0.0")
+    app.run(debug=False, port=80, host="0.0.0.0")
 
 if __name__ == '__main__':
     flask_process = Process(target=start_web_server)
